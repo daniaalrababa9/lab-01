@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+}
+
+
+@media(min-width: 768px) {
+    .a p {
+        padding: 35px ;
+    }
+    .b p {
+        padding: 250px ;
+    }
+    .c p, .d p {
+        padding: 100px ;
+    }
+    .i p {
+        padding: 70px ;
+    }  
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    color: rgb(29, 4, 9);
+}
+
+body {
+    width: 480px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 768px) {
+    body {
+        width: 960px;
+        display: grid;
+        grid-template-columns: 200px repeat(5, 200px);
+        grid-template-rows: 100px 200px 300px 250px;
+    }
+}
+
+@media(min-width:960px) {
+    body {
+        width: 960px;
+    }
+}
